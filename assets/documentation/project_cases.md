@@ -9,3 +9,6 @@ Make data base model
 
 ## FR-4
 Making login and autentication
+
+## FR-5 
+Making stadistics 
