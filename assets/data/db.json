@@ -1,13 +1,45 @@
 {
   "admins": [
     {
+      "id": "ddd1",
       "name": "admin outlet",
       "email": "admin@outlet.com",
+      "password": "password"
+    },
+    {
+      "name": "mario",
+      "email": "manuel@gmail.com",
+      "password": "password",
+      "id": "216d"
+    },
+    {
+      "name": "emanuel",
+      "email": "manuel@gmail.com",
+      "password": "password",
+      "id": "6e46"
+    },
+    {
+      "id": "fdd3",
+      "name": "jose",
+      "email": "manuel@gmail.com",
+      "password": "password"
+    },
+    {
+      "id": "2692",
+      "name": "jose",
+      "email": "manuel@gmail.com",
+      "password": "password"
+    },
+    {
+      "id": "0a02",
+      "name": "jose",
+      "email": "manuel@gmail.com",
       "password": "password"
     }
   ],
   "brands": [
     {
+      "id": "2278",
       "name": "totto",
       "local": "127",
       "floor": "1",
@@ -22,6 +54,7 @@
   ],
   "pqrs": [
     {
+      "id": "23df",
       "type": "queja",
       "email": "example@email.com",
       "message": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore rem soluta exercitationem illo enim"
