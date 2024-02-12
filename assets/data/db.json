@@ -1,1 +1,30 @@
-{}
+{
+  "admins": [
+    {
+      "name": "admin outlet",
+      "email": "admin@outlet.com",
+      "password": "password"
+    }
+  ],
+  "brands": [
+    {
+      "name": "totto",
+      "local": "127",
+      "floor": "1",
+      "schedule": [
+        "lunes - sabado: 10:00 a.m - 6:00 p.m",
+        "domingos y festivos: 10:00 a.m - 6:00 p.m"
+      ],
+      "logo": "https://i.ibb.co/j4LGSpH/totto-medellin.jpg",
+      "website": "https://co.totto.com/",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore rem soluta exercitationem illo enim, deleniti dolore quas nobis ea ipsa atque numquam porro. Magni obcaecati voluptas fugit fuga mollitia quam?"
+    }
+  ],
+  "pqrs": [
+    {
+      "type": "queja",
+      "email": "example@email.com",
+      "message": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore rem soluta exercitationem illo enim"
+    }
+  ]
+}
