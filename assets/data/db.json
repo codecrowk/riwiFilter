@@ -35,6 +35,12 @@
       "name": "jose",
       "email": "manuel@gmail.com",
       "password": "password"
+    },
+    {
+      "id": "0639",
+      "name": "carlos",
+      "email": "jose123@gmail",
+      "password": "password"
     }
   ],
   "brands": [
@@ -43,13 +49,30 @@
       "name": "totto",
       "local": "127",
       "floor": "1",
-      "schedule": [
-        "lunes - sabado: 10:00 a.m - 6:00 p.m",
-        "domingos y festivos: 10:00 a.m - 6:00 p.m"
-      ],
-      "logo": "https://i.ibb.co/j4LGSpH/totto-medellin.jpg",
+      "schedule": "lunes - sabado: 10:00 a.m - 6:00 p.m\n  domingos y festivos: 10:00 a.m - 6:00 p.m",
+      "logoURL": "https://i.ibb.co/j4LGSpH/totto-medellin.jpg",
       "website": "https://co.totto.com/",
       "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore rem soluta exercitationem illo enim, deleniti dolore quas nobis ea ipsa atque numquam porro. Magni obcaecati voluptas fugit fuga mollitia quam?"
+    },
+    {
+      "id": "d5af",
+      "name": "emanuel",
+      "local": "210",
+      "floor": "2",
+      "schedule": "lunes - sabado: 10:00 a.m - 6:00 p.m\n  domingos y festivos: 10:00 a.m - 6:00 p.m",
+      "logoURL": "https://i.ibb.co/pbRzhM6/logo-hacienda.jpg",
+      "website": "mySitio.com",
+      "description": "lorem lorem lorem"
+    },
+    {
+      "id": "1781",
+      "name": "emanuel",
+      "local": "210",
+      "floor": "2",
+      "schedule": "lunes - sabado: 10:00 a.m - 6:00 p.m\n  domingos y festivos: 10:00 a.m - 6:00 p.m",
+      "logoURL": "https://i.ibb.co/pbRzhM6/logo-hacienda.jpg",
+      "website": "mySitio.com",
+      "description": "lorem lorem lorem"
     }
   ],
   "pqrs": [
