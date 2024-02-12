@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dataServer": "npx json-server db.json",
+    "dataServer": "npx json-server ./assets/data/db.json",
     "server": "python3 -m http.server" 
   },
   "keywords": [],
