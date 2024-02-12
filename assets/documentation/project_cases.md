@@ -12,3 +12,9 @@ Making login and autentication
 
 ## FR-5 
 Making stadistics 
+
+## FR-6 
+Administrator interface
+
+## FR-10
+Create validation if user login
