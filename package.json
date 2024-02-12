@@ -1,0 +1,20 @@
+{
+  "name": "riwifilter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dataServer": "npx json-server db.json",
+    "server": "python3 -m http.server" 
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^1.0.0-alpha.23"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
