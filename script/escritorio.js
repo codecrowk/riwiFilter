@@ -14,7 +14,6 @@ const EscritorioControler = {
     const brandData = await BrandModel.getAllData()
     const pqrsData = await PqrsModel.getAllData()
     // const length = adminData.length
-    debugger
     EscritorioViews.adminCounter.innerText =  adminData.length
     EscritorioViews.brandCounter.innerText =  brandData.length
     EscritorioViews.pqrsCounter.innerText = pqrsData.length

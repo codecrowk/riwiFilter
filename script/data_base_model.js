@@ -71,6 +71,11 @@ class AdminDataModel extends ModelBuilder {
     return data;
   }
 
+  async getAdminByID (userEmail) {
+    const data = super.getByKeyValue("id", userEmail);
+    return data;
+  }
+
   async post (userName, userEmail) {
     const dataSchema = {
       name: userName,
