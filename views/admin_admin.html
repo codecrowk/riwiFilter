@@ -10,6 +10,7 @@
 		<link href="../template/css/bootstrap.min.css" rel="stylesheet" type="text/css" id="app-style" />
 		<link href="../template/css/app.min.css" rel="stylesheet" type="text/css" />
 		<link href="../template/css/icons.min.css" rel="stylesheet" type="text/css" />
+        <script type="module" src="../script/administrator.js" defer></script>
     </head>
     <body>
         <div id="wrapper">
@@ -73,7 +74,7 @@
                             <div class="col-md-12">
                                  <div class="card">
                                     <div class="card-body">
-                                        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        <button id="button_create" type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                             Crear nuevo Administrador
                                            </button>
                                         <div class="table-responsive mt-4">
@@ -86,7 +87,7 @@
                                                         <th>ACCIONES</th>
                                                     </tr>
                                                 </thead>
-                                                <tbody>
+                                                <tbody id="admin_table">
                                                     <tr>
                                                         <td><input type="text" class="form-control form-control-sm"></td>
                                                         <td><input type="text" class="form-control form-control-sm"></td>
@@ -94,16 +95,6 @@
                                                         <td>
                                                             <button class="btn btn-sm btn-info">Buscar</button>
                                                             
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>ff15</td>
-                                                        <td>Admin Outlet</td>
-                                                        <td>admin@outlet.com</td>
-                                                        <td>
-                                                            <button class="btn btn-sm btn-info">Detalles</button>
-                                                            <button class="btn btn-sm btn-warning">Editar</button>
-                                                            <button class="btn btn-sm btn-danger">Eliminar</button>
                                                         </td>
                                                     </tr>
                                                 </tbody>
@@ -129,24 +120,32 @@
 
 
 
-          <!-- Modal -->
+    <!-- Modal -->
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <h1 class="modal-title fs-5" id="exampleModalLabel">New administrator</h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          ...
+              <div class="row">
+                    <div class="mt-4">
+                        <label for="">Nombre</label>
+                        <input id="nameHTML" placeholder="" type="text" class="form-control">   
+                    </div>
+                    <div class="my-4">
+                        <label for="emailHTML">Correo electrónico</label>
+                        <input id="emailHTML" placeholder="" type="text" class="form-control">   
+                    </div>
+            </div>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+          <button id="submit_btn" type="button" class="btn btn-primary">Agregar</button>
         </div>
       </div>
     </div>
-  </div>
         <script src="../template/js/vendor.min.js"></script>
         <script src="../template/js/app.min.js"></script>
 

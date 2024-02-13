@@ -1,45 +1,51 @@
 {
   "admins": [
     {
-      "id": "ddd1",
-      "name": "admin outlet",
-      "email": "admin@outlet.com",
-      "password": "password"
-    },
-    {
-      "name": "mario",
-      "email": "manuel@gmail.com",
+      "name": "outlet",
+      "email": "admin@outlet.con",
       "password": "password",
       "id": "216d"
     },
     {
-      "name": "emanuel",
-      "email": "manuel@gmail.com",
+      "name": "dasdasd",
+      "email": "asdasd",
       "password": "password",
-      "id": "6e46"
+      "id": "8d27"
     },
     {
-      "id": "fdd3",
-      "name": "jose",
-      "email": "manuel@gmail.com",
+      "id": "ae69",
+      "name": "jose@gmail.com",
+      "email": "dasdasd",
       "password": "password"
     },
     {
-      "id": "2692",
-      "name": "jose",
-      "email": "manuel@gmail.com",
+      "id": "e0ce",
+      "name": "jose@gmail.com",
+      "email": "dasdasd",
       "password": "password"
     },
     {
-      "id": "0a02",
-      "name": "jose",
-      "email": "manuel@gmail.com",
+      "name": "dasdasdasdasd",
+      "email": "asdasdasdasd",
+      "password": "password",
+      "id": "e4da"
+    },
+    {
+      "id": "1896",
+      "name": "jose@gmail.com",
+      "email": "dasdasd",
       "password": "password"
     },
     {
-      "id": "0639",
-      "name": "carlos",
-      "email": "jose123@gmail",
+      "name": "dasdasdasdasd",
+      "email": "asdasdasdasd",
+      "password": "password",
+      "id": "41a2"
+    },
+    {
+      "id": "d3d0",
+      "name": "jose@gmail.com",
+      "email": "dasdasd",
       "password": "password"
     }
   ],

@@ -61,9 +61,7 @@ const LoginViews = {
     this.userPassword = document.getElementById("passwordHTML");
     this.userMessage = document.getElementById("login_message");
     this.submitBTN = document.getElementById("submit_btn");
-    const submitBTN = document.getElementById("submit_btn");
-
-    submitBTN.addEventListener('click', () => {
+    this.submitBTN.addEventListener('click', () => {
       LoginControler.checkLoginChain()
       console.log("hello")
     
