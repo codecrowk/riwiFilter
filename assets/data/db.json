@@ -83,10 +83,16 @@
   ],
   "pqrs": [
     {
-      "id": "23df",
-      "type": "queja",
-      "email": "example@email.com",
-      "message": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore rem soluta exercitationem illo enim"
+      "id": "1c64",
+      "type": "Queja",
+      "email": "jose@gmail.com",
+      "message": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis illo totam accusantium. "
+    },
+    {
+      "id": "4db4",
+      "type": "Queja",
+      "email": "jose@gmail.com",
+      "message": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis illo totam accusantium. "
     }
   ]
 }
