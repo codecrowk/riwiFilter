@@ -16,5 +16,8 @@ Making stadistics
 ## FR-6 
 Administrator interface
 
+## FR-7 
+Before become crazy
+
 ## FR-10
 Create validation if user login
