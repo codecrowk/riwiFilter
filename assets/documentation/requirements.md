@@ -2,6 +2,7 @@
 - Start making login validation first
 - When is user first login should adk to create a new password
 - Make brand schedule will be difficult
+- Create email class, and password class to make code more dynamic (and reusable)
 ## Errors
 
 ## Schedule hot to do it

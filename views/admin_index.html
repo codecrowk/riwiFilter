@@ -1,7 +1,5 @@
-
 <!DOCTYPE html>
 <html lang="en" data-topbar-color="dark">
-
     <head>
         <meta charset="utf-8" />
         <title>Admin</title>
@@ -11,7 +9,7 @@
 		<link href="../template/css/bootstrap.min.css" rel="stylesheet" type="text/css" id="app-style" />
 		<link href="../template/css/app.min.css" rel="stylesheet" type="text/css" />
 		<link href="../template/css/icons.min.css" rel="stylesheet" type="text/css" />
-        <script type="module" src="../script/checkLogin.js" defer></script>
+        <script type="module" src="../script/securityGuardian.js" defer></script>
         <script type="module" src="../script/escritorio.js" defer></script>
     </head>
     <body>
@@ -59,8 +57,8 @@
                             </a>
                         </li>
 
-                        <li class="menu-item">
-                            <a href="../index.html" class="menu-link text-danger">
+                        <li  class="menu-item">
+                            <a id="end_session" href="../index.html" class="menu-link text-danger">
                                 <span class="menu-icon"><i class="fe-log-out"></i></span>
                                 <span class="menu-text"> Cerrar sesión </span>
                             </a>

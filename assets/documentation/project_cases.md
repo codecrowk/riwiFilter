@@ -18,6 +18,23 @@ Administrator interface
 
 ## FR-7 
 Before become crazy
+(End of filter day)
 
-## FR-10
+## FR-8
+Order images brandsViews
+(Start new opportunity to upgrade the project)
+
+## FR-21
+Make pqrs public page
+
+## FR-22
+Make index page brand
+
+## FR-22
 Create validation if user login
+
+## FR-23
+Make modal to close, reload the page?
+
+## FR-24
+Clear local storage data

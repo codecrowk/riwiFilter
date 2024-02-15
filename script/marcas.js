@@ -110,8 +110,11 @@ const BrandViews = {
     const brandID = document.createElement('td');
     brandID.innerText = id;
     // logo
-    const brandLogo = document.createElement('td');
-    brandLogo.innerText = logoURL;
+    const brandImgContainer = document.createElement('td');
+    const brandIMG = document.createElement('img');
+    brandIMG.setAttribute("src", logoURL);
+    brandIMG.setAttribute("alt", "");
+    brandIMG.style.width = "100px";
     // name
     const brandName = document.createElement('td');
     brandName.innerText = name;
@@ -125,8 +128,10 @@ const BrandViews = {
     const brandSchedule = document.createElement('td');
     brandSchedule.innerText = schedule;
     // website
-    const branWebsite = document.createElement('td');
-    branWebsite.innerText = website;
+    const brandContainerWebsite = document.createElement('td');
+    const brandWebsiteURL = document.createElement('a');
+    brandWebsiteURL.setAttribute("href", website)
+    brandWebsiteURL.innerText = "Sitio web";
     // buttons
     const buttonsContainer = document.createElement('td');
     const detailButton = document.createElement('button');
@@ -146,14 +151,17 @@ const BrandViews = {
     buttonsContainer.appendChild(detailButton);
     buttonsContainer.appendChild(editButton);
     buttonsContainer.appendChild(deleteButton);
+    // 
+    brandImgContainer.appendChild(brandIMG);
+    brandContainerWebsite.appendChild(brandWebsiteURL);
     
     newRow.appendChild(brandID);
-    newRow.appendChild(brandLogo);
+    newRow.appendChild(brandImgContainer);
     newRow.appendChild(brandName);
     newRow.appendChild(brandLocal);
     newRow.appendChild(brandFloor);
     newRow.appendChild(brandSchedule);
-    newRow.appendChild(branWebsite);
+    newRow.appendChild(brandContainerWebsite);
     newRow.appendChild(buttonsContainer);
     return newRow;
   }

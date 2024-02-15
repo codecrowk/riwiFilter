@@ -9,6 +9,10 @@ const getLocalStorage = function (userKey) {
   return convertData;
 }
 
+const clearLocalStorage = function (){
+  localStorage.clear()
+}
+
 const removeElementHTML = function (parentNode, elementToRemove) {
   parentNode.removeChild(elementToRemove)
 }
@@ -19,4 +23,4 @@ const  buttonGetParentRow  = function (userElement) {
     return parentNodeRow;
 }
 
-export {setLocalStorage, getLocalStorage, removeElementHTML, buttonGetParentRow}
+export {setLocalStorage, getLocalStorage,  clearLocalStorage,removeElementHTML, buttonGetParentRow}

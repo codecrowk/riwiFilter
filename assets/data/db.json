@@ -1,8 +1,8 @@
 {
   "admins": [
     {
-      "name": "outlet",
-      "email": "admin@outlet.con",
+      "name": "rootAdmin",
+      "email": "admin@outlet.com",
       "password": "password",
       "id": "216d"
     },
@@ -93,6 +93,30 @@
       "type": "Queja",
       "email": "jose@gmail.com",
       "message": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis illo totam accusantium. "
+    },
+    {
+      "id": "1132",
+      "type": "queja",
+      "email": "jose@gmail.com",
+      "message": "no hay salchichas en esta panaderia"
+    },
+    {
+      "id": "ae8c",
+      "type": "queja",
+      "email": "jose@gmail.com",
+      "message": "no hay salchichas en esta panaderia"
+    },
+    {
+      "id": "32f5",
+      "type": "queja",
+      "email": "jose@gmail.com",
+      "message": "no hay salchichas en esta panaderia"
+    },
+    {
+      "id": "f3f5",
+      "type": "peticion",
+      "email": "jose@gmail.com",
+      "message": "Esa pagina de inicio no muestra encuentra nada"
     }
   ]
 }
